@@ -11,25 +11,74 @@ body {
     background-color: #ebecf0;;
 }
 
+ul {
+    list-style-type: none;
+}
+
 header {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 10px;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-bottom: var(--tertiary-color) 3px solid;
+}
+
+header h1 a {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: none;
+    
+}
+
+span {
+    color: var(--tertiary-color);
 }
 
 #header {
     justify-content: flex-start;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 
-div ul li {
-    list-style-type: none;
-    display: inline-block;
+#navButton {
+    padding-right: 20px;
+    display: inline;   
+    text-decoration: none;
+    color: var(--tertiary-color);
+    font-size: 18px;
 }
+
+#navButton:visited {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
 
 .hero-img {
     background-image: url("Assets/pennyback.jpg");
+    background-position: center;
     width: 100%;
-    height: 100px;
+    height: 300px;
 }
+
+.hero-img h2 {
+    align-content: flex-end;
+}
+
+@media only screen and (max-width: 470px) {
+    header {
+      justify-content: center;
+    }
+  }
