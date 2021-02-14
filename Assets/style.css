@@ -100,7 +100,7 @@ header nav ul {
 /* HERO IMAGE */
 
 .hero-img {
-    background-image: url(../images/pennyback.jpg);
+    background-image: url(images/pennyback.jpg);
     background-position: center;
     width: 100%;
     height: 400px;
@@ -189,23 +189,23 @@ header nav ul {
 }
 
 #img1 {
-    background-image: url(../images/runbuddy.jpg);
+    background-image: url(images/runbuddy.jpg);
 }
 
 #img2 {
-    background-image: url(../images/fightbots.jpg);
+    background-image: url(images/fightbots.jpg);
 }
 
 #img3 {
-    background-image: url(../images/horiseon.png);
+    background-image: url(images/horiseon.png);
 }
 
 #img4 {
-    background-image: url(../images/password.jpg)
+    background-image: url(images/password.jpg)
 }
 
 #img5 {
-    background-image: url(../images/sooooon.jpg)
+    background-image: url(images/sooooon.jpg)
 }
 
 .bg-image:hover {
