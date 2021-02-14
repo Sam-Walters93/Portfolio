@@ -100,7 +100,7 @@ header nav ul {
 /* HERO IMAGE */
 
 .hero-img {
-    background-image: url("/../Assets/images/pennyback.jpg");
+    background-image: src("/Assets/images/pennyback.jpg");
     background-position: center;
     width: 100%;
     height: 400px;
@@ -189,23 +189,23 @@ header nav ul {
 }
 
 #img1 {
-    background-image: url("/../Assets/images/runbuddy.jpg");
+    background-image: url(/Assets/images/runbuddy.jpg);
 }
 
 #img2 {
-    background-image: url("/../Assets/images/fightbots.jpg");
+    background-image: url(/Assets/images/fightbots.jpg);
 }
 
 #img3 {
-    background-image: url('/../Assets/images/horiseon.png');
+    background-image: url(/Assets/images/horiseon.png);
 }
 
 #img4 {
-    background-image: url('/../Assets/images/password.jpg')
+    background-image: url(/Assets/images/password.jpg)
 }
 
 #img5 {
-    background-image: url('/../Assets/images/sooooon.jpg')
+    background-image: url(/Assets/images/sooooon.jpg)
 }
 
 .bg-image:hover {
