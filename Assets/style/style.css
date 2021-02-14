@@ -1,0 +1,216 @@
+/* UNIVERSAL STYLING */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --primary-color: #5785C9;
+  --secondary-color: #C9766B;
+  --tertiary-color: #294B7D;
+}
+
+body {
+    background-color: #ebecf0;;
+}
+
+.section-head { 
+    font-size: 55px;
+    font-weight: bold;
+    border-bottom: 3px var(--primary-color) solid;
+    color: var(--tertiary-color);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-bottom: var(--tertiary-color) 1px solid;
+}
+
+header h1 a {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: underline;
+    
+}
+
+span {
+    color: var(--tertiary-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#navButton {
+    padding-right: 20px;
+    display: inline;   
+    text-decoration: none;
+    color: var(--tertiary-color);
+    font-size: 18px;
+}
+
+#navButton:visited {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+
+/* HERO IMAGE */
+
+.hero-img {
+    background-image: url("/../Assets/images/pennyback.jpg");
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.hero-img h2 {
+    align-content: flex-end;
+}
+
+/* ABOUT ME */
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5% 10px 5%;
+    margin: 0 auto 15px auto;
+}
+
+
+/* PROJECTS */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.project-card {
+    padding: 10px;
+    flex: 1 1 auto;
+    margin: 15px 15% 40px 15%;
+    height: 500px;
+
+}
+
+.project-card-sm {
+    flex: 2 1 0;
+    margin: 10% auto 10% auto;
+    max-width: 30%;
+    min-width: 200px;
+    margin: 0px 2em 15px 2em;
+
+}
+
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.bg-image {
+  min-height: 400px;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#img1 {
+    background-image: url("/../Assets/images/runbuddy.jpg");
+}
+
+#img2 {
+    background-image: url("/../Assets/images/fightbots.jpg");
+}
+
+#img3 {
+    background-image: url('/../Assets/images/horiseon.png');
+}
+
+#img4 {
+    background-image: url('/../Assets/images/password.jpg')
+}
+
+#img5 {
+    background-image: url('/../Assets/images/sooooon.jpg')
+}
+
+.bg-image:hover {
+    filter: blur(0px);
+}
+
+.project-title {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: black;
+  font-weight: bold;
+  border: 3px solid #f1f1f1; 
+  text-align: center;
+}
+
+.project-title-sm{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    border: 2px solid #f1f1f1; 
+    text-align: center;
+    flex: 2 1 0;
+    color: black;
+}
+
+.project-title p, .project-card-sm p {
+  font-size: 12px;
+  font-weight: lighter;
+  color: aliceblue;
+}
+
+
+/* CONTACT */
+
+.contact{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto 20px auto;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 480px) {
+    header {
+      justify-content: center;
+    }
+    
+    header h1 a {
+        padding-right: 10px;
+    }
+  }
