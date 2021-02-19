@@ -205,11 +205,11 @@ header nav ul {
 }
 
 #img4 {
-    background-image: url(images/password.jpg)
+    background-image: url(images/password.jpg);
 }
 
 #img5 {
-    background-image: url(images/sooooon.jpg)
+    background-image: url(images/toDo.jpg);
 }
 
 .bg-image:hover {
