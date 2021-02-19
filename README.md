@@ -4,4 +4,4 @@ This repository contains the personal portfolio of Sam Walters (me :) ). Content
 
 Built using *JavaScript, HTML, and CSS* 
 
-[Named Link](http://www.google.fr/ "Named link title")
+[Named Link](https://sam-walters93.github.io/Portfolio/ "Portfolio")
