@@ -145,6 +145,7 @@ header nav ul {
     flex: 1 1 0;
     overflow: wrap;
     min-width: 260px;
+    font-size: larger;
 }
 
 /* PROJECTS */
